@@ -16,3 +16,5 @@ $ git checkout betta
 Now you can try running a basic hub example: 
 
 <pre> $./pox.py log.level --DEBUG misc.of_tutorial</pre>
+
+![alt tag](https://github.com/syaifulahdan/POX/blob/master/image/Screenshot%20from%202016-04-12%2000:59:27.png)
