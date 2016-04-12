@@ -1,4 +1,10 @@
 <pre>
+$ sudo apt-get install git
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/POX/blob/master/image/Screenshot%20from%202016-04-12%2019:35:58.png)
+
+<pre>
 $ git clone http://github.com/noxrepo/pox
 </pre>
 
