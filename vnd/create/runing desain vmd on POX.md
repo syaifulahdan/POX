@@ -3,8 +3,8 @@ How to running desain mypox.py on pox
 1. open terminal
 
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ cd pox
-bertopeng17@bertopeng17-ThinkPad-T520:~/pox$ ./pox.py mypox1
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>cd pox</b>
+bertopeng17@bertopeng17-ThinkPad-T520:~/pox$ <b>./pox.py mypox1</b>
 POX 0.2.0 (carp) / Copyright 2011-2013 James McCauley, et al.
 INFO:mypox1:*** Starting... ***
 INFO:mypox1:*** Waiting for switches to connect.. ***
