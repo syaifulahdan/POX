@@ -25,11 +25,11 @@ Buatlah topology seperti diwabah ini :
 
 --- Flow Table ---
 
-- flowtable           :1
-- flowname            :rule1
-- priority            :-
-- Switch MAC Addrss_  : 00.00.00.00.00.03
-- ingress port        :
+- flowtable           :-
+- flowname            : -
+- priority            : -
+- Switch MAC Addrss_  : -
+- ingress port        : -
 - vlanID              : -
 - vlanPriority        : -
 - ethernet type       : -
@@ -43,4 +43,49 @@ Buatlah topology seperti diwabah ini :
 ------- Actions -------
 
 - set output          : -
-- set source mac      :
+- set source mac      : -
+- set enqueue         : -
+- set Vlan ID         : -
+- set Vlan Priority   : -
+- set strip Vlan      : - 
+- set TOS             : -
+- set Source IP       : -
+- set Destination IP  : -
+- set Source TCP/UDP Port :-
+- set Destination TCP/UDP Port : -
+- note                : -
+
+
+##### Create Rule Secenario
+
+- id                    : <b>controller_2</b>
+- name                  : <b>controller_2</b>
+- actove                : <b>true</b>
+- controller ip address : <b>127.0.0.1</b>
+- controller port       : <b>6633</b>
+- remote controller     : <b>true</b>
+- openflow controller   : <b>pox</b> 
+-------------------------------------------
+
+- flowname : <b>rule1</b>
+- Switch MAC Addrss_  : <b>00.00.00.00.00.03</b>
+- ingress port        : <b>1</b>
+- set output          : <b>2</b>
+
+- flowname : <b>rule2</b>
+- Switch MAC Addrss_  : <b>00.00.00.00.00.03</b>
+- ingress port        : <b>2</b>
+- set output          : <b>1</b>
+
+
+- flowname : <b>rule3</b>
+- Switch MAC Addrss_  : <b>00.00.00.00.00.04</b>
+- ingress port        : <b>2</b>
+- set output          : <b>1</b>
+
+- flowname : <b>rule4</b>
+- Switch MAC Addrss_  : <b>00.00.00.00.00.04</b>
+- ingress port        : <b>2</b>
+- set output          : <b>1</b> 
+
+click apply seeting for create rule
