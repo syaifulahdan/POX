@@ -93,3 +93,10 @@ Buatlah topology seperti diwabah ini :
 - set output          : <b>1</b> 
 
 click apply seeting for create rule
+
+##### Save to Controller and Mininet
+
+- File > Export > Export to Openflow Controller > Download > Save file > Ok 
+   
+![alt tag] (https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2000:46:11.png)
+- 
