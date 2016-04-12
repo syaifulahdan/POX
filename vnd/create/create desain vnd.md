@@ -99,4 +99,7 @@ click apply seeting for create rule
 - File > Export > Export to Openflow Controller > Download > Save file > Ok 
    
 ![alt tag] (https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2000:46:11.png)
-- 
+ 
+- File > Export > Export to Mininet (or Mininet-Wifi) > Download > Save file > Ok 
+-
+![alt tag](https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2000:49:44.png)
