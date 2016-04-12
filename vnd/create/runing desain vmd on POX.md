@@ -21,3 +21,22 @@ INFO:mypox1:    *** Static flows installed. ***
 <pre>
 
 ![alt tag] (https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2001:24:39.png)
+
+2. running desain mininet from vmd file : mininetCode33724.sh
+
+<pre>
+
+bertopeng17@bertopeng17-ThinkPad-T520:~/Downloads$ sudo ./mininetCode33724.sh 
+*** Creating nodes
+Unable to contact the remote controller at 127.0.0.1:6633
+*** Creating links
+*** Starting network
+*** Configuring hosts
+h2 h3 
+*** Running CLI
+*** Starting CLI:
+mininet> 
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2001:31:50.png)
+
