@@ -21,6 +21,10 @@ Buatlah topology seperti diwabah ini :
 - remote controller     : true
 - openflow controller   : pox {beacon,floodlight, jackson, maestro, mul, nodeflow, nox, opendaylight, ovs-controller, pox, trema}
 
+![alt tag](https://github.com/syaifulahdan/POX/blob/master/vnd/image/Screenshot%20from%202016-04-13%2000:40:40.png)
+
+
+
 <b>click flow table for create</b>
 
 --- Flow Table ---
